@@ -1,11 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import connectDB from './config/db.js';
-import authRoutes from './routes/auth.routes.js';
-import productRoutes from './routes/products.js';
 import cors from 'cors';
-import session from 'express-session';
-import passport from './config/passport.js';
 import { exec } from 'child_process';
 
 dotenv.config();
