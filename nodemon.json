@@ -1,0 +1,10 @@
+{
+  "watch": ["index.js"],
+  "ignore": [
+    "node_modules",
+    "scripts/",
+    "*.log",
+    "*.json",
+    "logs/"
+  ]
+}
